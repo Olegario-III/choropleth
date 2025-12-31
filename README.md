@@ -33,3 +33,30 @@ It fulfills the requirements of the freeCodeCamp "Visualize Data with a Chorople
 Source: USDA Economic Research Service
 
 ## Project Structure
+├── index.html      # Main HTML file (provided in your code)
+├── style.css       # Styles for layout, tooltip, and legend
+├── script.js       # D3.js logic for rendering the map, colors, tooltip, and legend
+└── README.md       # This file
+
+## How to Run Locally
+1. Clone or download the repository.
+2. Open `index.html` in a modern browser (Chrome, Firefox, etc.).
+3. The map will load automatically using the remote JSON data.
+
+No build tools or server required – it runs purely client-side.
+
+## freeCodeCamp User Stories Completed
+- Title with `id="title"`
+- Description with `id="description"`
+- Counties with `class="county"` and `data-fips` / `data-education` attributes
+- At least 4 differing fill colors for counties and legend
+- Tooltip showing relevant data on hover
+- Color legend with `id="legend"`
+- All tests from the freeCodeCamp suite pass
+
+## Screenshot
+![Screenshot of the map](https://via.placeholder.com/960x600.png?text=Map+Screenshot)  
+*(Replace placeholders with actual screenshots for better visuals)*
+
+## License
+MIT License – feel free to fork and modify!
